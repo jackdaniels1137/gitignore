@@ -1,0 +1,21 @@
+#iniciando 
+
+#Bloqueo conexion.txt
+conexion.txt
+
+#Bloqueo .meta
+*.meta
+
+#Bloqueo .class
+*.class
+
+#Bloqueo .zzz de carpeta b
+B/**/*.zzz
+
+#Bloqueo carpeta datos contenida en B
+B/**/Datos
+
+#Todos los archivos  de la carpeta estados menos feliz.html
+/**/Estado/*.html
+!/**/Estado/feliz.html
+
